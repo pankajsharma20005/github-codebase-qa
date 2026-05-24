@@ -64,8 +64,8 @@ def extract_files(repo_path: str) -> List[Dict]:
 
 if __name__ == "__main__":
     # Test karo
-    REPO_URL = "https://github.com/zedr/clean-code-python"
-    CLONE_PATH = "data/clean-code-python"
+    REPO_URL = "https://github.com/pallets/flask"
+    CLONE_PATH = "data/flask"
 
     clone_repo(REPO_URL, CLONE_PATH)
     files = extract_files(CLONE_PATH)
